@@ -55,9 +55,9 @@ a {
 	margin: 0px;
 	padding: 0px;
 	width: 640px;
-	height: 400%;
-	background-color: #202020;
+	height: calc(100vh - 144px);
 	border-collapse: collapse;
+	overflow-y: auto;
 	}
 
 .content {
@@ -66,6 +66,12 @@ a {
 	padding-left: 72px;
 	padding-top:24px;
 	top: 0px;
+	text-align:justify;
+	
+	}
+	
+.orangetext {
+	color:#F80
 	}
 	
 .mainlinks {
